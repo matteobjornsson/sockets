@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package udp;
+
+message Header {
+	optional int32 src_port = 1;
+	optional int32 dst_port = 2;
+}
